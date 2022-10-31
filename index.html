@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+
+  <body>
+    <main>
+      <section class="container">
+        <div class="icon">
+          <img
+            class="main-icon"
+            src="images/illustration-woman-online-mobile.svg"
+            alt=""
+          />
+          <img class="icon-shadow" src="images/bg-pattern-mobile.svg" alt="" />
+        </div>
+
+        <div class="desktop-icon">
+          <img
+            src="images/illustration-woman-online-desktop.svg"
+            alt=""
+            class="desk-icon"
+          />
+          <img src="images/bg-pattern-desktop.svg" alt="" class="desk-shadow" />
+        </div>
+
+        <img src="images/illustration-box-desktop.svg" alt="" class="box" />
+
+        <article class="accordion-container">
+          <h1>FAQ</h1>
+
+          <div class="accordion">
+            <button type="button" class="accordion-btn">
+              How many team member can I invite?
+            </button>
+            <div class="accordion-info">
+              <p>
+                The amount of team members is limited to 10. Please email us
+                further if you require special accommodation.
+              </p>
+            </div>
+
+            <hr />
+            <!-- <br> -->
+
+            <button type="button" class="accordion-btn">
+              What is the maximum file upload size?
+            </button>
+            <div class="accordion-info">
+              <p>Please be advised that there is a 250GB upload size.</p>
+            </div>
+
+            <hr />
+            <!-- <br> -->
+
+            <button type="button" class="accordion-btn">
+              How do I reset my password?
+            </button>
+            <div class="accordion-info">
+              <p>
+                Go to Account Settings > Reset Password and follow the prompts
+                for succuessful password reset.
+              </p>
+            </div>
+
+            <hr />
+            <!-- <br> -->
+
+            <button type="button" class="accordion-btn">
+              Can I cancel my subscription?
+            </button>
+            <div class="accordion-info">
+              <p>
+                Your subscription can be canceled anytime. Access to features
+                will be lost.
+              </p>
+            </div>
+
+            <hr />
+            <!-- <br> -->
+
+            <button type="button" class="accordion-btn">
+              Do you provide additional support?
+            </button>
+            <div class="accordion-info">
+              <p>
+                If you require additional support please don't hesitate to email
+                us directly. Contact information can be found in the 'Contact
+                us' section.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
